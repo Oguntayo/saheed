@@ -189,46 +189,53 @@ body {
   border-radius: 5px; /* Rounded corners */
 }
 
-
 @media (max-width: 992px) {
- 
   .header-area {
-    background-color: #212741;
+      background-color: #212741;
   }
-.header-text {
-    width: 80%;
-      top: 30%;
+  .header-text {
+      width: 80%;
   }
- 
 }
 
 @media (max-width: 767px) {
   .header-text .div-dec {
-    margin-left: auto;
-    margin-right: auto;
+      margin-left: auto;
+      margin-right: auto;
   }
-.header-text p {
-    display: none;
+
+  .header-text {
+      text-align: center;
+      width: 90%;
+      transform: translateY(-50%);
+      top: 30%;
+      margin-right: 10%;
   }
- .header-text {
- .header-text {
-    text-align: center;
-    width: 90%;
-    transform: translateY(-50%);
-    top: 30%;
-    margin-right: 10%;
+
+  .header-text h2 {
+      font-size: 24px; /* Reduce the size of the heading */
+      line-height: 1.2; /* Adjust line height as needed */
   }
+
+  .header-text p {
+      font-size: 14px; /* Reduce the size of the paragraph */
+      display: block; /* Ensure the paragraph is displayed */
+  }
+
   .header-text .div-dec {
-    margin-left: auto;
-    margin-right: auto;
+      margin-left: auto;
+      margin-right: auto;
   }
- .header-text .buttons {
-    display: inline-flex;
+
+  .header-text .buttons {
+      display: inline-flex;
   }
-.header-text .buttons .green-button {
-    float: none;
+
+  .header-text .buttons .green-button {
+      float: none;
   }
 }
+
 /*---------------------------------------
   TYPOGRAPHY               
 -----------------------------------------*/
