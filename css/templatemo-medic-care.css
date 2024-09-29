@@ -197,7 +197,7 @@ body {
   }
 .header-text {
     width: 80%;
-      top: 20%;
+      top: 30%;
   }
  
 }
@@ -211,9 +211,11 @@ body {
     display: none;
   }
  .header-text {
+ .header-text {
     text-align: center;
-    width: 80%;
-    margin-left: 10%;
+    width: 90%;
+    transform: translateY(-50%);
+    top: 30%;
     margin-right: 10%;
   }
   .header-text .div-dec {
